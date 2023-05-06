@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+#bas{
+    width: 1350px;
+    height: 100px;
+    color: #109E97;
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+}
+#kataloq{
+    width: 1350px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #109E97;
+}
+ul{
+    width: 800px;
+    display: flex;
+    list-style: none;
+    
+}
+li{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    width: 190px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px
+}
+#main{
+    height: 600px;
+    width: 1350px;
+    display: flex;
+    position: relative;
+    background-image: url(/back.png);
+}
+#infophoto{
+    top: 120px;
+    right: 850px;
+    position: absolute;
+    height: 400px;
+    width: 300px;
+}
+#info{
+    top: 60px;
+    right: 350px;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+}
+#info p{
+    font-size: 18px;
+}
+button{
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+    color: white;
+    border: white;
+    background-color:#109E97;
+}
+#yumru{
+    width: 50px;
+    position: absolute;
+    right: 0;
+    top: 110px;
+}
+#yumru #sade{
+    background-color: #109E97;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#yumru #qara{
+    margin-top: 16px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #808080;
+}
+#kitablar{
+    margin-top: 20px;
+    display: flex;
+    width: 1350px;
+    height: 60px;
+    text-transform: uppercase;
+    font-size: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+#kitab{
+    margin-left: 397px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 900px;
+    width: 550px;
+    border: 1px solid black;
+}
+#kitab div{
+    width: 150px;
+    height: 240px;
+    border: 1px solid  #109E97;
+}
+#kitab img{
+    width: 100px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+#kitab a{
+    margin-left: 50px;
+    text-decoration: none;
+}
+#kitab span{
+    margin-left:40px ;
+    margin-bottom: 10px;
+}
+#son{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 1350px;
+    margin-top: 50px;
+    color: white;
+    background-color: #109E97;
+}
